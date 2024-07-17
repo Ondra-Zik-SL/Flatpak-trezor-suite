@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Trezor Suite
+Comment=App Description
+Exec=trezor-suite
+Terminal=false
+Type=Application
+Icon=io.trezor.suite
+StartupWMClass=trezor-suite
+Categories=Network;

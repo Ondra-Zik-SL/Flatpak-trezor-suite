@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+
+	<id>io.trezor.suite</id>
+
+	<metadata_license>MIT</metadata_license>
+
+	<name>Trezor Suite</name>
+
+	<summary>Use your Trezor device</summary>
+
+	<description>
+		<p>This is the Apps description.
+		</p>
+	</description>
+
+	<categories>
+		<category>Network</category>
+	</categories>
+
+	<url type="homepage">https://trezor.io/</url>
+	<url type="help">https://trezor.io/support</url>
+	<url type="faq">https://trezor.io/support</url>
+
+	<launchable type="desktop-id">io.trezor.suite.desktop</launchable>
+
+	<requires>
+		<control>DEVICE</control>
+	</requires>
+
+	<project_license>LicenseRef-LICENSE</project_license>
+
+	<developer_name>YOURNAME</developer_name>
+
+	<screenshots>
+		<screenshot type="default">
+			<image>
+				https://link-to-image.png
+			</image>
+		</screenshot>
+		<screenshot>
+			<image>
+				https://link-to-image2.png
+			</image>
+		</screenshot>
+	</screenshots>
+
+	<content_rating type="oars-1.1">
+		<!-- You can generate OpenArgeRatings Metadata here:
+		https://hughsie.github.io/oars/generate.html -->
+		
+		
+	</content_rating>
+
+	<agreement type="eula" version_id="2021.05.26">
+		<agreement_section id="0">
+			<name>General Information</name>
+			<description>
+				<p>
+					EULA here, or any other agreement
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="1">
+			<name>Definitions</name>
+			<description>
+				<p>
+					"User" means anyone ... 
+				</p>
+			</description>
+		</agreement_section>
+		<agreement_section id="2">
+			<name>License</name>
+			<description>
+				<p>
+					License Description
+
+					You can put as many licenses here as you need, each in its own section.
+				</p>
+			</description>
+		</agreement_section>
+	</agreement>
+</component>
