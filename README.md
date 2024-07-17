@@ -1,0 +1,1 @@
+# Flatpak-trezor-suite
