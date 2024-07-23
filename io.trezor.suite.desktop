@@ -6,4 +6,4 @@ Terminal=false
 Type=Application
 Icon=io.trezor.suite
 StartupWMClass=trezor-suite
-Categories=Network;
+Categories=Office;Finance;
