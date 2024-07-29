@@ -33,10 +33,10 @@ modules:
       - squashfs-root
     sources:
       - type: extra-data
-        url: https://github.com/trezor/trezor-suite/releases/download/v24.7.2/Trezor-Suite-24.7.2-linux-x86_64.AppImage
-        size: 160619432
-        sha256: 11f15062eb4ba63f4c75c78b7ef7bd38399db456007ddda967c28bcf9d0e475c
-        filename: Trezor-Suite-24.7.2-linux-x86_64.AppImage
+        url: https://github.com/trezor/trezor-suite/releases/download/v24.7.3/Trezor-Suite-24.7.3-linux-x86_64.AppImage
+        size: 160619259
+        sha256: 3e57708a17f306ae9fb111311004dd18c9cc1ebefc205f3c82c0435d37978001
+        filename: Trezor-Suite.AppImage
         x-checker-data:
           type: electron-updater
 

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-APP_IMAGE="/app/extra/Trezor-Suite-24.7.2-linux-x86_64.AppImage"
+APP_IMAGE="/app/extra/Trezor-Suite.AppImage"
 
 # Allow image to execute
 
