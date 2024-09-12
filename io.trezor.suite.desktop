@@ -1,9 +1,10 @@
 [Desktop Entry]
 Name=Trezor Suite
 Comment=App Description
-Exec=trezor-suite
+Exec=trezor-suite %U
 Terminal=false
 Type=Application
 Icon=io.trezor.suite
 StartupWMClass=trezor-suite
+MimeType=x-scheme-handler/trezorsuite;x-scheme-handler/bitcoin;
 Categories=Office;Finance;
