@@ -11,7 +11,6 @@ chmod +x $APP_IMAGE
 unappimage $APP_IMAGE
 
 # Install data
-
 DEST="/app/extra/bin/"
 mkdir $DEST
 cp -r squashfs-root/* $DEST
