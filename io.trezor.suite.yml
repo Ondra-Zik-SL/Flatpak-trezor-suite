@@ -34,9 +34,9 @@ modules:
       - squashfs-root
     sources:
       - type: extra-data
-        url: https://data.trezor.io/suite/releases/desktop/canary/Trezor-Suite-24.9.1-linux-x86_64.AppImage
-        size: 163839741
-        sha256: 0081138434c5602423bb73467ef98daae2745999e7a56eca1b3dff3acf36a196
+        url: https://data.trezor.io/suite/releases/desktop/latest/Trezor-Suite-24.9.2-linux-x86_64.AppImage
+        size: 163839023
+        sha256: a7afd7ead29abbe26cc1c136fca7cae3bea0a8a96b25a2bac05462062c9b7eba
         filename: Trezor-Suite.AppImage
         x-checker-data:
           type: electron-updater
