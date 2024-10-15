@@ -8,11 +8,9 @@ command: trezor-suite
 separate-locales: false
 rename-icon: trezor-suite
 finish-args:
-#  - --persist=SOME-STORAGE
-#  - --persist=SOME-OTHER-STORAGE
+  - --filesystem=~/.config/autostart
   - --share=network
   - --device=all
-#  - --share=ipc
   - --socket=fallback-x11
 #  - --socket=x11
   - --socket=wayland
@@ -44,7 +42,7 @@ modules:
       - type: script
         dest-filename: trezor-suite
         commands:
-          - exec zypak-wrapper /app/extra/bin/trezor-suite "$@" --no-sandbox --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto
+          - exec zypak-wrapper /app/extra/bin/trezor-suite "$@" --no-sandbox --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto --skip-new-bridge-rollout
           # 
 
 #      - type: file
