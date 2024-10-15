@@ -1,83 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
+  <id>io.trezor.suite</id>
 
-	<id>io.trezor.suite</id>
+  <name>Trezor Suite</name>
+  <summary>Take control of your crypto in Trezor Suite</summary>
 
-	<metadata_license>MIT</metadata_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary=https://github.com/trezor/trezor-suite/blob/develop/LICENSE.md</project_license>
+  <developer_name>Trezor</developer_name>
 
-	<name>Trezor Suite</name>
+  <description>
+    <p>Trezor Suite is a comprehensive app for managing cryptocurrency securely. It connects with Trezor hardware wallets, allowing users to send, receive, and track digital assets. Key features include explicit transaction confirmation, hidden wallets for enhanced privacy, coin control, staking rewards, and support for a wide range of coins. It also integrates security features like Tor for anonymous browsing and Taproot for enhanced Bitcoin privacy.</p>
 
-	<summary>Use your Trezor device</summary>
+	<p>*NOTE*: This is the official release of Trezor Suite, packaged into a Flatpak by the community. This repackaging is not yet supported by Trezor Company s.r.o</p>
+  </description>
 
-	<description>
-		<p>This is the Apps description.
-		</p>
-	</description>
+  <url type="homepage">https://trezor.io/</url>
+  <url type="help">https://trezor.io/support</url>
+  <url type="faq">https://trezor.io/learn</url>
+  <url type="vcs-browser">https://github.com/trezor/trezor-suite</url>
 
-	<categories>
-		<category>Network</category>
-	</categories>
+  <launchable type="desktop-id">io.trezor.suite.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://trezor.io/images/suite/coin-security.png</image>
+    </screenshot>
+  </screenshots>
 
-	<url type="homepage">https://trezor.io/</url>
-	<url type="help">https://trezor.io/support</url>
-	<url type="faq">https://trezor.io/support</url>
+  <content_rating type="oars-1.1">
+    <content_attribute id="money-purchasing">intense</content_attribute>
+  </content_rating>
 
-	<launchable type="desktop-id">io.trezor.suite.desktop</launchable>
-
-	<requires>
-		<control>DEVICE</control>
-	</requires>
-
-	<project_license>LicenseRef-LICENSE</project_license>
-
-	<developer_name>YOURNAME</developer_name>
-
-	<screenshots>
-		<screenshot type="default">
-			<image>
-				https://link-to-image.png
-			</image>
-		</screenshot>
-		<screenshot>
-			<image>
-				https://link-to-image2.png
-			</image>
-		</screenshot>
-	</screenshots>
-
-	<content_rating type="oars-1.1">
-		<!-- You can generate OpenArgeRatings Metadata here:
-		https://hughsie.github.io/oars/generate.html -->
-		
-		
-	</content_rating>
-
-	<agreement type="eula" version_id="2021.05.26">
-		<agreement_section id="0">
-			<name>General Information</name>
-			<description>
-				<p>
-					EULA here, or any other agreement
-				</p>
-			</description>
-		</agreement_section>
-		<agreement_section id="1">
-			<name>Definitions</name>
-			<description>
-				<p>
-					"User" means anyone ... 
-				</p>
-			</description>
-		</agreement_section>
-		<agreement_section id="2">
-			<name>License</name>
-			<description>
-				<p>
-					License Description
-
-					You can put as many licenses here as you need, each in its own section.
-				</p>
-			</description>
-		</agreement_section>
-	</agreement>
+  
+  <releases>
+    <release version="24.10.0" date="2024-10-16">
+      <description></description>
+    </release>
+    </releases>
 </component>
