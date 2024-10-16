@@ -19,7 +19,7 @@ Clone this repository
 Build the app with flatpak builder
 
     flatpak run org.flatpak.Builder --force-clean --sandbox --user --install-deps-from=flathub --ccache --mirror-screenshots-url=https://dl.flathub.org/media/ --repo=repo builddir io.trezor.suite.yml
-Add the Custom Flatpak repository.
+Add the local Flatpak repository.
 
     flatpak remote-add --user --no-gpg-verify my-app file://$(pwd)/repo
 

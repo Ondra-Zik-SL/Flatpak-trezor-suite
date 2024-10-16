@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=Trezor Suite
-Comment=App Description
+Comment=Take control of your crypto in Trezor Suite
 Exec=trezor-suite %U
 Terminal=false
 Type=Application
