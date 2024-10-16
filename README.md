@@ -1,20 +1,32 @@
 
 # Flatpak-trezor-suite
-Proof of concept for running Trezor Suite as a Flatpak app.
+Trezor Suite as a Flatpak app.
 
-clone this repository
+### Install:
 
-    git clone https://github.com/Ondra-Zik-SL/Flatpak-trezor-suite.git
+Install flatpak builder
+
+    flatpak install -y flathub org.flatpak.Builder
 
 You may need to add the Flathub repository for your user.
 
     flatpak remote-add --user --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
+Clone this repository
 
-build the app with flatpak builder
+    git clone https://github.com/Ondra-Zik-SL/Flatpak-trezor-suite.git
 
-    flatpak-builder --force-clean --user --install-deps-from=flathub --repo=repo --install builddir io.trezor.suite.yml
+Build the app with flatpak builder
 
-run the flatpak with:
+    flatpak run org.flatpak.Builder --force-clean --sandbox --user --install-deps-from=flathub --ccache --mirror-screenshots-url=https://dl.flathub.org/media/ --repo=repo builddir io.trezor.suite.yml
+Add the Custom Flatpak repository.
+
+    flatpak remote-add --user --no-gpg-verify my-app file://$(pwd)/repo
+
+Install the Trezor Suite from the local repository.
+
+    flatpak install --user -y my-app io.trezor.suite
+
+Run the flatpak with.
 
     flatpak run io.trezor.suite

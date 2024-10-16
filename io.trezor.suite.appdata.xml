@@ -8,6 +8,10 @@
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://github.com/trezor/trezor-suite/blob/develop/LICENSE.md</project_license>
   <developer_name>Trezor</developer_name>
+  <categories>
+    <category>Office</category>
+    <category>Finance</category>
+  </categories>
 
   <description>
     <p>Trezor Suite is a comprehensive app for managing cryptocurrency securely. It connects with Trezor hardware wallets, allowing users to send, receive, and track digital assets. Key features include explicit transaction confirmation, hidden wallets for enhanced privacy, coin control, staking rewards, and support for a wide range of coins. It also integrates security features like Tor for anonymous browsing and Taproot for enhanced Bitcoin privacy.</p>
@@ -32,9 +36,27 @@
   </content_rating>
 
   
-  <releases>
-    <release version="24.10.0" date="2024-10-16">
-      <description></description>
-    </release>
-    </releases>
+<releases>
+  <release version="24.10.1" date="2024-10-16">
+  <url type="details">https://trezor.io/learn/a/trezor-suite-update-october-2024</url>
+    <description>
+        <p><em>Improvements</em></p>
+      <ul>
+        <li>MATIC has been fully migrated to POL (Polygon network update).</li>
+        <li>Device and Suite update status has been added to the bottom navigation.</li>
+        <li>Token lists have been enhanced across all networks.</li>
+        <li>The "Hide Balances" feature has been improved for better privacy.</li>
+        <li>A new, simplified token selection has been introduced in the Buy and Swap flows.</li>
+        <li>The 'Trade' button has been replaced with clearer 'Buy and Sell' and 'Swap' options.</li>
+        <li>Simplified Chinese has been added as a community language — thank you, contributors!</li>
+      </ul>
+        <p><em>Bug fixes</em></p>
+      <ul>  
+        <li>Various small improvements and bug fixes.</li>
+      </ul>
+    </description>
+  </release>
+</releases>
+
+
 </component>
