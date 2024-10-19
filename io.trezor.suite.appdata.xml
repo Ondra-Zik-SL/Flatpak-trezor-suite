@@ -14,8 +14,8 @@
   </categories>
 
   <description>
-    <p>Trezor Suite is a comprehensive app for managing cryptocurrency securely. It connects with Trezor hardware wallets, allowing users to send, receive, and track digital assets. Key features include explicit transaction confirmation, hidden wallets for enhanced privacy, coin control, staking rewards, and support for a wide range of coins. It also integrates security features like Tor for anonymous browsing and Taproot for enhanced Bitcoin privacy.</p>
-
+  <p>Trezor Suite is a comprehensive app for securely managing cryptocurrency with your Trezor device. It allows you to send, receive, and track digital assets. Key features include explicit transaction confirmation on your Trezor hardware wallet, passphrase wallets for enhanced privacy, coin control, staking rewards, and support for a wide range of coins and tokens. It also integrates security features like Tor for private browsing and Taproot for enhanced Bitcoin privacy.</p>
+  <p>For the Trezor device to be detected, you need to have systemd 256.4 or newer, or install udev rules on your system from the Trezor website.</p>
 	<p>*NOTE*: This is the official release of Trezor Suite, packaged into a Flatpak by the community. This repackaging is not yet supported by Trezor Company s.r.o</p>
   </description>
 
@@ -25,10 +25,40 @@
   <url type="vcs-browser">https://github.com/trezor/trezor-suite</url>
 
   <launchable type="desktop-id">io.trezor.suite.desktop</launchable>
+  
   <screenshots>
     <screenshot type="default">
-      <image>https://trezor.io/images/suite/coin-security.png</image>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/1.png</image>
     </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/2.png</image>
+    </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/3.png</image>
+    </screenshot>    
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/4.png</image>
+    </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/5.png</image>
+    </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/6.png</image>
+    </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/7.png</image>
+    </screenshot>
+
+    <screenshot>
+      <image>https://raw.githubusercontent.com/Ondra-Zik-SL/Flatpak-trezor-suite/94122eea1b17bafd8a647a2fbafa896250f3a3ae/screenshots/8.png</image>
+    </screenshot>
+    
   </screenshots>
 
   <content_rating type="oars-1.1">
